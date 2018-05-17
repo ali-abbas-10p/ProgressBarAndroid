@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.practice.progressbar.ProgressBarGradientView
+        android:background="@android:color/transparent"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:max_value="100"
+        app:current_value="35"
+        app:stroke_width="10dp"
+        app:color_first="@android:color/holo_blue_dark"
+        app:color_second="@android:color/holo_blue_light"
+        app:color_third="@android:color/holo_blue_light"
+        app:color_fourth="@android:color/holo_blue_dark"
+        app:stroke_fill_color="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="15"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <TextView
+            android:layout_gravity="center"
+            android:text="DAYS"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+</FrameLayout>

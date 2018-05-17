@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressBarGradientView">
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="color_first" format="color"/>
+        <attr name="color_second" format="color"/>
+        <attr name="color_third" format="color"/>
+        <attr name="color_fourth" format="color"/>
+        <attr name="stroke_fill_color" format="color"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="current_value" format="integer"/>
+    </declare-styleable>
+</resources>
